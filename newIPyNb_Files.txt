@@ -1,0 +1,21 @@
+% 这个文件夹主要用来记录和总结在github中上传IPyNb的过程
+————————————————————————
+1. Python 是语言，iPython(和python 中的shell类似)应该是Python的一种交互式开发环境，这个环境非常友好，在Ipython Notebook(Jupyter Notebook)中呢，可以很好的将MarkDown和code文件结合在一起。
+2. IPython NoteBook。
+
+——————————————————————————
+
+2.1 首先需要安装这些环境，我是安装了软件Anaconda3 这个软件，这个软件基本安装起来没有什么问题，一路next或者查看网上的教程即可，而且，这个软件貌似是免费软件；安装完成之后呢，开始菜单里面的Anaconda3中会多出一下以下几个程序：
+		Anaconda Cloud, 
+		Anaconda Navigator, 
+		Anaconda Prompt, IPython（很友好的开发环境），
+		 Jupyter NoteBook（可以打开iPyNB文件，在其中可以新建ipynb文件，文件中可以MarkDown，公式和代码混编，非常好用，上传到github中之后，可以在网页端查看http://nbviewer.jupyter.org）， 
+		Jupyter QTConsole，
+		Spyder（Python 开发IDE，貌似和Matlab非常像）
+
+2.2 如何打开本地ipynb文件？ 
+	在前面安装完Anaconda之后，具备了Jupyder环境，发现在cmd中输入“Jupyder Notebook”没有反应，那么我们需要在中段中添加一些内容（参考http://blog.csdn.net/lee_j_r/article/details/52791228），pip install jupyder, 那么在cmd中输入Jupyder Notebook就会打开相应的软件；
+	回到前面的问题，如何打开ipynb文件，现在假设本地有文件ipynb文件，在当前文件夹下打开cmd（shift+右键， 在此处打开power shell窗口） 然后打开jupyter notebook， 就可以了！！！
+
+2.3 如何创建ipynb文件？
+	同样的在当前文件夹打开cmd，然后打开jupyter notebook ,浏览器中，右上角有一个new按钮，然后输入相关内容，就可以了！！！
